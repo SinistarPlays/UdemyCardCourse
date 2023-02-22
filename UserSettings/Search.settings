@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.310DEAF1" = "m:"
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
 }
 providers = {
 	adb = {
@@ -53,6 +56,8 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"m:"
+	""
 ]
 searchItemFavorites = [
 ]
@@ -63,5 +68,5 @@ expandedQueries = [
 ]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
-helperWidgetCurrentArea = "all"
+helperWidgetCurrentArea = "m:"
 disabledIndexers = ""
