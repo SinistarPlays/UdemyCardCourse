@@ -1094,10 +1094,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea37df8dd0468664aa301c93a2a57f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCostText: {fileID: 4758259428397849599}
+  attackText: {fileID: 4352561028505758285}
+  healthText: {fileID: 9533948661390918}
   cardName: 
   manaCost: 0
   attackPower: 0
-  defencePower: 0
+  healthPower: 0
 --- !u!1 &6266032366895441030
 GameObject:
   m_ObjectHideFlags: 0
