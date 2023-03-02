@@ -12,6 +12,6 @@ public class Card : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 }
