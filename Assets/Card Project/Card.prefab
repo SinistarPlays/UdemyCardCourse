@@ -1055,7 +1055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8400999899068259496}
-  - component: {fileID: -7232991808670075393}
+  - component: {fileID: -2900605780077667279}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -1082,7 +1082,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7232991808670075393
+--- !u!114 &-2900605780077667279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1097,10 +1097,6 @@ MonoBehaviour:
   manaCostText: {fileID: 4758259428397849599}
   attackText: {fileID: 4352561028505758285}
   healthText: {fileID: 9533948661390918}
-  cardName: 
-  manaCost: 0
-  attackPower: 0
-  healthPower: 0
 --- !u!1 &6266032366895441030
 GameObject:
   m_ObjectHideFlags: 0
