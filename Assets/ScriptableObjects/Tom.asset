@@ -16,3 +16,4 @@ MonoBehaviour:
   manaCost: 3
   attackPower: 2
   healthPower: 2
+  cardArtTexture: {fileID: 2800000, guid: 384df6c298fb21247a3cd32aaa222914, type: 3}

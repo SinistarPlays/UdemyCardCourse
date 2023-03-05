@@ -10,6 +10,8 @@ public class CardGameObject : MonoBehaviour
 
     void Start()
     {
+        GetComponentInChildren<MeshRenderer>().material.SetTexture("_ArtTexture", card.GetTexture());
+
         manaCostText.text = card.GetManaCost().ToString();
         attackText.text = card.GetAttackPower().ToString();
         healthText.text = card.GetHealthPower().ToString();

@@ -9,6 +9,7 @@ public class Card : ScriptableObject
     [SerializeField] int manaCost;
     [SerializeField] int attackPower;
     [SerializeField] int healthPower;
+    [SerializeField] Texture2D cardArtTexture;
 
     public int GetManaCost()
     {
@@ -23,5 +24,10 @@ public class Card : ScriptableObject
     public int GetHealthPower() 
     { 
         return healthPower; 
+    }
+
+    public Texture2D GetTexture()
+    {
+        return cardArtTexture;
     }
 }

@@ -455,10 +455,30 @@ PrefabInstance:
       propertyPath: healthPower
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3934068375818030067, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201052434482740743, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626601575133602914, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4789440888847190568, guid: 3d376216356e1ff4aab45c91898b0328,
         type: 3}
       propertyPath: m_Name
       value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789440888847190568, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8400999899068259496, guid: 3d376216356e1ff4aab45c91898b0328,
         type: 3}
