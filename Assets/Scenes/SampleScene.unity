@@ -275,6 +275,12 @@ PrefabInstance:
       propertyPath: healthPower
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -2900605780077667279, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: c18824ae5d08d294c9f7be6b34115b06,
+        type: 2}
     - target: {fileID: 517747923898573740, guid: 3d376216356e1ff4aab45c91898b0328,
         type: 3}
       propertyPath: cardName
@@ -423,6 +429,12 @@ PrefabInstance:
       propertyPath: manaCostText
       value: 
       objectReference: {fileID: 1456919918}
+    - target: {fileID: -2900605780077667279, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a9d33a99966d6641a41053307514365,
+        type: 2}
     - target: {fileID: 517747923898573740, guid: 3d376216356e1ff4aab45c91898b0328,
         type: 3}
       propertyPath: cardName
@@ -830,6 +842,12 @@ PrefabInstance:
       propertyPath: healthPower
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2900605780077667279, guid: 3d376216356e1ff4aab45c91898b0328,
+        type: 3}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: f329ae8921d02884b8689ab19d83b2f6,
+        type: 2}
     - target: {fileID: 517747923898573740, guid: 3d376216356e1ff4aab45c91898b0328,
         type: 3}
       propertyPath: cardName
