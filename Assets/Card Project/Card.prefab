@@ -1100,6 +1100,8 @@ MonoBehaviour:
   manaCostText: {fileID: 4758259428397849599}
   attackText: {fileID: 4352561028505758285}
   healthText: {fileID: 9533948661390918}
+  nameText: {fileID: 8734259509954799805}
+  descriptionText: {fileID: 5665320441143219415}
 --- !u!1 &6266032366895441030
 GameObject:
   m_ObjectHideFlags: 0

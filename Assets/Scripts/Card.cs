@@ -6,10 +6,21 @@ using UnityEngine;
 public class Card : ScriptableObject
 {
     [SerializeField] string cardName;
+    [SerializeField] string cardDescription;
     [SerializeField] int manaCost;
     [SerializeField] int attackPower;
     [SerializeField] int healthPower;
     [SerializeField] Texture2D cardArtTexture;
+
+    public string GetName()
+    {
+        return cardName;
+    }
+
+    public string GetDescription()
+    {
+        return cardDescription;
+    }
 
     public int GetManaCost()
     {
@@ -29,5 +40,30 @@ public class Card : ScriptableObject
     public Texture2D GetTexture()
     {
         return cardArtTexture;
+    }
+
+    public void SetName(string cardName)
+    {
+        this.cardName = cardName;
+    }
+
+    public void SetDescription(string cardDescription)
+    {
+        this.cardDescription = cardDescription;
+    }
+
+    public void SetManaCost(int manaCost)
+    {
+        this.manaCost = manaCost;
+    }
+
+    public void SetAttackPower(int attackPower)
+    {
+        this.attackPower = attackPower;
+    }
+
+    public void SetHealth(int healthPower)
+    {
+        this.healthPower = healthPower;
     }
 }

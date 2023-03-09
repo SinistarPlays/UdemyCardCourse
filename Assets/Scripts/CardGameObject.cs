@@ -6,7 +6,7 @@ using UnityEngine;
 public class CardGameObject : MonoBehaviour
 {
     [SerializeField] Card card;
-    [SerializeField] TMP_Text manaCostText, attackText, healthText;
+    [SerializeField] TMP_Text manaCostText, attackText, healthText, nameText, descriptionText;
 
     void Start()
     {
@@ -15,5 +15,7 @@ public class CardGameObject : MonoBehaviour
         manaCostText.text = card.GetManaCost().ToString();
         attackText.text = card.GetAttackPower().ToString();
         healthText.text = card.GetHealthPower().ToString();
+        nameText.text = card.GetName();
+        descriptionText.text = card.GetDescription();
     }
 }
