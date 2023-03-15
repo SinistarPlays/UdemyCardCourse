@@ -8,9 +8,6 @@ public class Hand : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < cardsInHand.Count; i++)
-        {
-            Debug.Log("Card: " + cardsInHand[i].GetCard().GetName());
-        }
+        
     }
 }

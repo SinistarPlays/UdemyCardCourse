@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Henry
   m_EditorClassIdentifier: 
   cardName: Henry
+  cardDescription: Deals 4 Damage
   manaCost: 4
   attackPower: 3
   healthPower: 1

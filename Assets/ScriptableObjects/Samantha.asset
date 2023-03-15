@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Samantha
   m_EditorClassIdentifier: 
   cardName: Samantha
+  cardDescription: Deals 1 Damage
   manaCost: 1
   attackPower: 1
   healthPower: 2

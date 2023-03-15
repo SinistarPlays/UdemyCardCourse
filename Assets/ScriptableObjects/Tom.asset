@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Tom
   m_EditorClassIdentifier: 
   cardName: Tom
+  cardDescription: Deals 2 Damage
   manaCost: 3
   attackPower: 2
   healthPower: 2
